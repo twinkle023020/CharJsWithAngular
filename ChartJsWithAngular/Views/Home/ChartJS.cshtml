@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "ChartJS";
+}
+
+<h2>ChartJS</h2>
+<script src="~/Scripts/ChartJs/Chart.js"></script>
+<script src="~/Scripts/App/app.js"></script>
+<div ng-app="dashboard">
+
+    <div ng-controller="chartcontroller">
+        <div style="height: 170px;">
+            <canvas chart-js chart-data="data" chart-options="options" width="350" height="350"></canvas>
+
+        </div>
+
+    </div>
+</div>
